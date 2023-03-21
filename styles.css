@@ -285,48 +285,6 @@ header .navbar ul li a {
   color: #ED169B;
 }
 
-.testimonial {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  background: black;
-  color: white;
-  position: relative;
-}
-.testimonial img {
-  width: 200px;
-  height: 150px;
-  display: block;
-  padding: 10px 0;
-}
-.testimonial .inner {
-  margin: 15px;
-  max-width: 50%;
-}
-.testimonial .inner .username {
-  max-width: -moz-max-content;
-  max-width: max-content;
-  font-size: 1.6em;
-  color: #ae2683;
-}
-.testimonial .inner .username span {
-  display: block;
-  font-size: 0.6em;
-  text-align: center;
-}
-.testimonial .arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.testimonial .arrow.right {
-  right: 15px;
-}
-.testimonial .arrow.left {
-  left: 15px;
-}
-
 .gp {
   display: flex;
   flex-flow: row nowrap;
@@ -650,7 +608,7 @@ footer .footwrapper .footerright .menuthree a {
   }
 }
 
-.hihi {
+.copyright {
   text-align: center;
 }
 
