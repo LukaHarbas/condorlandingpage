@@ -252,48 +252,6 @@ header {
   }
 }
 
-.testimonial {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  background: black;
-  color: white;
-  position: relative;
-  img {
-    width: 200px;
-    height: 150px;
-    display: block;
-    padding: 10px 0;
-  }
-  .inner {
-    margin: 15px;
-    max-width: 50%;
-    .username {
-      max-width: max-content;
-      font-size: 1.6em;
-      color: #ae2683;
-      span {
-        display: block;
-        font-size: 0.6em;
-        text-align: center;
-      }
-    }
-}
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  &.right {
-    right: 15px;
-  }
-  &.left {
-    left: 15px;
-  }
-}
-}
-
-
 .gp {
   display: flex;
   flex-flow: row nowrap;
@@ -552,7 +510,7 @@ footer {
   }
 }
 
-.hihi {
+.copyright {
   text-align: center;
 }
 
